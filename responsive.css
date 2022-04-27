@@ -1,0 +1,26 @@
+
+@media (min-width: 575.98px) { 
+   
+}
+
+
+@media (min-width: 767.98px) {
+    .banner{
+        background: url(img/gamabr\ banner.jpg) no-repeat center center;
+        background-size: cover;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);}
+ }
+
+
+@media (min-width: 991.98px) { 
+    .banner{
+        background: url(img/gamabr\ banner.jpg) no-repeat center center;
+        background-size: cover;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);}
+}

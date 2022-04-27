@@ -1,0 +1,328 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8E8E8;
+}
+
+/* navbar */
+.navbar {
+    z-index: 3;
+}
+
+*{
+    z-index: 2;
+}
+.navbar-brand {
+    height: 100%;
+    color: white;
+}
+
+.nav-link {
+    font-weight: 400;
+}
+
+.bahasa {
+    height: 25px;
+}
+
+/* hero */
+
+.banner{
+    background: url(img/gamabr\ banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    
+}
+
+a.sosial-h{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #C52323;
+    line-height: 40px;
+}
+
+.hero-tul {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.button-hero {
+    width: 124px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #BE2929;
+    color: #fff;
+    border: none;
+
+}
+.button-hero1 {
+    width: 124px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #fff;
+    color:#BE2929;
+    border:1px solid #BE2929;
+
+}
+
+/* navbar color */
+
+.nav-color {
+    background-color: #BE2929;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out 0.3s;
+}
+
+/* value */
+#value {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #BE2929;
+}
+
+.card-value {
+    width: 100%;
+    height: 210px;
+    background-color: white;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    transition: all .2s ease-in;
+
+}
+
+.circle-icon {
+    width: 110px;
+    height: 110px;
+    background-color: #BE2929;
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+
+.card-value h3 {
+    font-weight: 600;
+    color: #464040;
+    font-size: 20px;
+    transition: all .3s ease-in;
+
+}
+
+
+/* hover value */
+
+.card-value:hover .circle-icon {
+    background-color: #464040;
+    transition: all .1s ease-in;
+
+}
+
+.card-value:hover {
+    width: 100%;
+    height: 210px;
+    background: linear-gradient(120deg, #BE2929, #6B1919 );
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    transition: all .2s ease-in;
+
+}
+
+
+
+
+.card-value:hover h3 {
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+    transition: all .3s ease-in;
+}
+
+/* products */
+
+#products {
+    background: linear-gradient(300deg, #BE2929, #6B1919 );
+    color: white;
+    padding: 100px 0;
+}
+
+.card-produk {
+    background-color: white;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.30);
+    height: 100%;
+    transition: all .1s ease-in;
+}
+
+.products-judul {
+    color: white;
+}
+
+.card-text {
+    color: #464040;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .2s ease-in;
+
+}
+
+.card-img {
+    height: 100%;
+}
+
+
+.card-produk:hover {
+    background: linear-gradient(120deg, #BE2929, #6B1919 );
+    transition: all .1s ease-in;
+}
+
+
+
+.card-produk:hover .card-text{
+    color: white;
+    transition: all .2s ease-in;
+}
+/* about us */
+#about {
+    background-image: url(img/about.png);
+    background-size: cover;
+    height: 100%;
+    
+}
+
+
+.card-body {
+    color: #464040;
+    font-weight: 600 ;
+    font-size: 14px;
+    padding: 20px 45px;
+}
+
+.about-judul {
+    color: #464040;
+    font-size: 24px;
+}
+
+/* tim */
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: white;
+    background-color: #C52323;
+}
+
+.lingkaran  i{
+    position: relative;
+    top: 30px;
+    
+}
+
+#team {
+    background: linear-gradient(300deg, #BE2929, #6B1919 );
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+.team-text {
+    color: white;
+}
+
+.tim img{
+ 
+    border: 5px solid white ;
+}
+
+
+a.sosial{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #C52323;
+    border-radius: 50%;
+    background-color: white;
+    line-height: 40px;
+}
+
+/* kontak */
+
+#Contact {
+background-image: url(img/footer.png) ;    
+color: white;
+background-size: cover;
+}
+
+
+.text-kontak {
+    color: white;
+}
+
+.button-foot {
+    width: 124px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #BE2929;
+    color: #fff;
+    border: none;
+}
+
+/* footer */
+#footer {
+    background-color: #0E0F10;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.alamat img {
+    margin-left: 30px;
+}
+
+.footer-kontak a {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.sosmed a {
+    margin-right: 15px;
+}
+
+.navbawah a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.sosmedfot {
+    color: white;
+    font-size: 24px;
+}
